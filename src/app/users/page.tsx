@@ -26,6 +26,8 @@ const columns: ColumnDef<Payment>[] = [
               'name'
             )}`}
             alt='user-image'
+            width={200}
+            height={200}
           />
           <p>{row.getValue('name')} </p>
         </div>
